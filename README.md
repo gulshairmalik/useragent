@@ -1,5 +1,5 @@
 # useragent
-This is a Simple Express.js Application that converts the unix timestamp into natural language date and vice versa.
+This is a simple Express.js application that gives the client info like IP, OS, Browser etc.
 
 # Live Version of this App:
 https://useragent55.herokuapp.com/
