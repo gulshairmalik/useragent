@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset='utf-8')
+        title Useragent
+        link(href='/css/bootstrap.min.css', rel='stylesheet')
+    body
+        .container
+            .jumbotron
+                h1.text-center User Agent
+                br
+                br
+                br
+                ul.list-group
+                    li.list-group-item <strong>IP Address :</strong> #{res.ip}
+                    li.list-group-item <strong>Language :</strong> #{res.language}
+                    li.list-group-item <strong>Operating System :</strong> #{res.OS}
+                    li.list-group-item <strong>Browser :</strong> #{res.browser}
+                h2.text-primary User Agent
+                p(style="font-size:18px;") This is a simple Express.js application that gives the client info like IP, OS, Browser etc.
+                h2.text-primary API Development
+                p(style="font-size:18px;") You can use my API if you want, it's free. Here is the link of API:
+                a(href="https://useragent55.herokuapp.com/api",target="_blank",style="font-size:18px;") https://useragent55.herokuapp.com/api
